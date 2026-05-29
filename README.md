@@ -1,67 +1,52 @@
-# ScottsTechX-python3
+# 🐍 ScottsTechX Python3
 
-🛠️ Simple CLI Tool | Part of ScottsTechX Tool Suite
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3-00ff88?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Open-Source-00ff88?style=for-the-badge&logo=github&logoColor=black" alt="Open Source"/>
+</p>
 
----
-
-## About
-
-**Python 3 interpreter - run scripts, automation, data analysis**
-
-Official ScottsTechX tool repo — part of the [ScottsTechX Tool Installer](https://github.com/fredscottsbulls/ScottsTechX-Tool-Installer) suite.
-
-**Official Website:** https://python.org
+> **Python 3 interpreter — scripting, automation, data analysis, and rapid development.**
 
 ---
 
-## Quick Install
+## ⚡ Why Python?
 
-### Via ScottsTechX Tool Installer:
+- **Rapid prototyping** — write and test fast
+- **Security tools** — nmap, scapy, requests, pwntools
+- **Automation** — scripts, bots, CI/CD pipelines
+- **Data science** — pandas, numpy, sklearn
+
+## 🚀 Quick Usage
 
 ```bash
-scotts-techx install python3
+# Run a script
+python3 script.py
+
+# One-liners
+python3 -c "print('Hello, world!')"
+
+# Interactive mode
+python3
+
+# Module check
+python3 -m pip install requests
 ```
 
-### Manual Install:
+## 💼 Essential Security Libraries
 
 ```bash
-# Linux/macOS/Git Bash
-curl -fsSL https://raw.githubusercontent.com/fredscottsbulls/ScottsTechX-python3/main/install.sh | bash
-
-# Windows PowerShell
-irm https://raw.githubusercontent.com/fredscottsbulls/ScottsTechX-python3/main/install.ps1 | iex
+pip install requests scapy pwntools colorama rich
 ```
 
----
+## 🛡 Common Use Cases
 
-## What is PYTHON3?
-
-Python 3 interpreter - run scripts, automation, data analysis.
-
-For full documentation: https://python.org
-
----
-
-## ScottsTechX Tool Suite (30 tools)
-
-| Category | Tools |
-|----------|-------|
-| Simple CLI | nmap, curl, wget, jq, git, python3, ffmpeg, traceroute, netcat, openssh |
-| Pentesting | hydra, sqlmap, nikto, hashcat, gobuster, searchsploit, masscan, burpsuite, ncat, Responder |
-| DevOps | docker, vim, htop, tmux, tar, make, openssl, ansible, kubectl, terraform |
-
-**[View Full Suite](https://github.com/fredscottsbulls/ScottsTechX-Tool-Installer)**
+| Task | Command |
+|------|---------|
+| Web scraping | `python3 scraper.py` |
+| Network analysis | `scapy` library |
+| API testing | `requests` library |
+| CTF exploits | `pwntools` |
 
 ---
 
-## Disclaimer
-
-**For authorized use only.** Unauthorized access to computer systems is illegal.
-
----
-
-<div align="center">
-
-**ScottsTechX** | Fred Scotts | https://github.com/fredscottsbulls
-
-</div>
+MIT © 2026
